@@ -27,9 +27,7 @@ function studentsStatistics(students) {
             
         }
         
-        // let min = Math.min(...scores);
-        // let max = Math.max(...scores);
-        let status = { Minimum: min, Maximum: max, Average: ave };
+        let status = { minimum: min, maximum: max, average: ave };
         studentsStatistics[student.name] = status;
     }
     return studentsStatistics;
