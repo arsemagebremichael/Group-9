@@ -15,6 +15,5 @@ def student_statistics(students):
         students_statistics.append(student_data)
     return students_statistics
 
-
 print(student_statistics(students))
 
